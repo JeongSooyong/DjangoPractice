@@ -42,6 +42,14 @@ C:\workspace\my_django_project\config
 이렇게 수정해준다.
 
 
+# 5. 초기 마이그레이션 실행 및 서버 확인
+가상 환경이 활성화된 터미널에서
+python manage.py migrate 명령어로 Django가 제공하는 기본 테이블을 DB에 생성한다.
+
+<img width="629" height="399" alt="image" src="https://github.com/user-attachments/assets/a7edbf3e-367a-48dd-bdfe-a81b5507fbae" />
+
+<img width="629" height="399" alt="image" src="https://github.com/user-attachments/assets/ccff9548-fe52-4d6c-b94a-013cc87297d7" />
+성공적으로 실행됐을시 이렇게 된다.
 
 
 
