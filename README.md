@@ -50,6 +50,18 @@ python manage.py migrate 명령어로 Django가 제공하는 기본 테이블을
 
 성공적으로 실행됐을시 이렇게 된다.
 
+# 6. 개발 서버 실행해보기
+
+python manage.py runserver 명령어로 개발 서버를 실행해보자.
+
+<img width="877" height="193" alt="image" src="https://github.com/user-attachments/assets/6ec8c913-f9f8-4d95-a9b7-7d387f4f361b" />
+
+이런 문구가 나온다면 정상적으로 실행된것이다.
+
+정상적으로 실행됐다면 해당 주소로 웹에 접속해보자.
+<img width="1361" height="669" alt="image" src="https://github.com/user-attachments/assets/08bf1033-2270-48c4-88c1-61679e2027dc" />
+
+성공적으로 됐다.
 
 
 
