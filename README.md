@@ -32,28 +32,15 @@ C:\workspace\my_django_project\config
 이 경로에 settings.py 파일이 생성되어 있을 것이다.
 
 해당 파일을 열어
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'accounts', 
-    'posts', 
-]
-을 붙여 넣고,
+<img width="413" height="238" alt="image" src="https://github.com/user-attachments/assets/c6cd4ce0-ec5f-4d78-b5f3-b5e22857a224" />
+
+이 부분을 이렇게 수정하고,
+
 데이터베이스 설정을 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '내가 생성한 DB명',
-        'USER': 'postgres',   
-        'PASSWORD': 'postgre설치시에 설정한 비밀번호',    
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+<img width="481" height="219" alt="image" src="https://github.com/user-attachments/assets/89812099-a3b9-4896-88bc-05aa6e5805d1" />
+
+이렇게 수정해준다.
+
 
 
 
